@@ -9,7 +9,7 @@
 
 ## Overview
 
-This repository demonstrates a progression of control strategies for soft robotics actuation, moving from simple manual on-off control toward advanced methods that combine Proportional–Integral–Derivative (PID) and Linear Quadratic Regulator (LQR). It focuses on how a basic open-loop feedforward actuation can be extended into closed-loop feedback control frameworks that enable more precise and adaptive behavior.
+This repository demonstrates a progression of control strategies for soft robotics actuation, moving from simple manual on-off control toward advanced methods that combine Proportional-Integral-Derivative (PID) and Linear Quadratic Regulator (LQR). It focuses on how a basic open-loop feedforward actuation can be extended into closed-loop feedback control frameworks that enable more precise and adaptive behavior.
 
 ## Phase 1: On-off Control
 
