@@ -1,7 +1,7 @@
 # Soft-Robotics-Locomotion-Control
 
 <p align="center">
-  <img width="660" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.gif">
+  <img width="660" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/Soft Locomotive Robot.gif">
 </p>
 
 ## Overview
@@ -22,22 +22,22 @@ My soft robot prototype was fabricated using Ecoflex liquid silicone rubber, cas
 
 <p align="center">
   <kbd>
-    <img width="300" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.jpg">
+    <img width="300" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/Actuator Molds.jpg">
   </kbd>
 </p>
 <p align="center">
-    <text> Figure 1:  </text>
+    <text> Figure 1: Actuator Molds </text>
 </p>
 
 The actuators were connected to a fluidic control board fitted with a microcontroller, together with solenoid valves, a power system, pneumatic sensors, and manual switches. This setup was assembled on a compact platform to enable testing with different control approaches.
 
 <p align="center">
   <kbd>
-    <img width="300" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.jpg">
+    <img width="300" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/Fluidic Control Board.jpg">
   </kbd>
 </p>
 <p align="center">
-    <text> Figure 2:  </text>
+    <text> Figure 2: Fluidic Control Board </text>
 </p>
 
 For a detailed prototyping tutorial, see the Soft Robotics Toolkit: https://softroboticstoolkit.com/.
