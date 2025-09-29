@@ -18,7 +18,7 @@ The second stage implements closed-loop feedback control in Python on a Raspberr
 
 ## Prototyping
 
-My soft robot prototype was fabricated using Ecoflex liquid silicone rubber, cast in custom 3D-printed molds designed in Autodesk Fusion. These moulds define internal pneumatic channels, allowing the silicone body to bend and deform when pressurized.
+My soft robot prototype was fabricated using Ecoflex liquid silicone rubber, cast in custom 3D-printed molds designed in Autodesk Fusion. These molds define internal pneumatic channels, allowing the silicone body to bend and deform when pressurized.
 
 <p align="center">
   <kbd>
