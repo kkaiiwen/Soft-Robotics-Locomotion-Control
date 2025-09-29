@@ -14,7 +14,7 @@ My soft robot prototype was fabricated using Ecoflex liquid silicone rubber, cas
 
 <p align="center">
   <kbd>
-    <img width="800" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.jpg">
+    <img width="300" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.jpg">
   </kbd>
 </p>
 <p align="center">
@@ -25,7 +25,7 @@ The actuators were connected to a fluidic control board fitted with a microcontr
 
 <p align="center">
   <kbd>
-    <img width="800" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.jpg">
+    <img width="300" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/.jpg">
   </kbd>
 </p>
 <p align="center">
