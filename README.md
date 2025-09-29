@@ -1,7 +1,7 @@
 # Soft-Robotics-Locomotion-Control
 
 <p align="center">
-  <img width="660" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/Soft Locomotive Robot.gif">
+  <img width="660" src="https://github.com/kkaiiwen/Soft-Robotics-Locomotion-Control/blob/main/Graphics/Soft Locomotive Robot.GIF">
 </p>
 
 ## Overview
