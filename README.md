@@ -14,11 +14,11 @@ In the first stage, an Arduino Mega 2560 programmed in C++ is used to implement 
 
 ## Phase 2: PID and LQR Control
 
-The second stage implements feedback-based control in Python on a Raspberry Pi, extending the system beyond simple manual actuation. Here, each channel is regulated with a PID controller, which tracks target pressures, reduces steady-state error, and responds to disturbances more effectively than feedforward input alone. On top of this, an LQR framework is applied to the system model to compute optimal feedback gains. LQR balances tracking performance with actuation effort, yielding smoother and more coordinated regulation across all channels. Together, PID and LQR highlight how feedback mechanisms transform the system from a basic open-loop prototype into a precise and adaptive soft robotic platform.
+The second stage implements closed-loop feedback control in Python on a Raspberry Pi, extending the system beyond simple manual actuation. Here, each channel is regulated with a PID controller, which tracks target pressures, reduces steady-state error, and responds to disturbances more effectively than feedforward input alone. On top of this, an LQR framework is applied to the system model to compute optimal feedback gains. LQR balances tracking performance with actuation effort, yielding smoother and more coordinated regulation across all channels. Together, PID and LQR highlight how feedback mechanisms transform the system from a basic open-loop prototype into a precise and adaptive soft robotic platform.
 
 ## Prototyping
 
-My soft robot prototype was fabricated using Ecoflex liquid silicone rubber, cast in custom 3D-printed molds designed in Autodesk Fusion. These molds define internal pneumatic channels, allowing the silicone body to bend and deform when pressurized.
+My soft robot prototype was fabricated using Ecoflex liquid silicone rubber, cast in custom 3D-printed molds designed in Autodesk Fusion. These moulds define internal pneumatic channels, allowing the silicone body to bend and deform when pressurized.
 
 <p align="center">
   <kbd>
