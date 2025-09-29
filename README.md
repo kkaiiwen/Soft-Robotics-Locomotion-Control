@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository demonstrates a progression of control strategies for soft robotics actuation, moving from simple manual on-off control toward advanced methods that combine PID and LQR. It highlights how basic open-loop feedforward actuation can be extended into closed-loop feedback control frameworks that enable more precise and adaptive behavior.
+This repository demonstrates a progression of control strategies for soft robotics actuation, moving from simple manual on-off control toward advanced methods that combine Proportional–Integral–Derivative (PID) and Linear Quadratic Regulator (LQR). It highlights how basic open-loop feedforward actuation can be extended into closed-loop feedback control frameworks that enable more precise and adaptive behavior.
 
 ## Prototyping
 
@@ -40,6 +40,6 @@ In the first stage, an Arduino Mega 2560 programmed in C++ is used to implement 
 
 ## Phase 2: PID and LQR Control
 
-The second stage implements feedback-based control in Python on a Raspberry Pi, extending the system beyond simple manual actuation. Here, each channel is regulated with a Proportional–Integral–Derivative (PID) controller, which tracks target pressures, reduces steady-state error, and responds to disturbances more effectively than feedforward input alone. On top of this, a Linear Quadratic Regulator (LQR) framework is applied to the system model to compute optimal feedback gains. LQR balances tracking performance with actuation effort, yielding smoother and more coordinated regulation across all channels. Together, PID and LQR highlight how feedback mechanisms transform the system from a basic open-loop prototype into a precise and adaptive soft robotic platform.
+The second stage implements feedback-based control in Python on a Raspberry Pi, extending the system beyond simple manual actuation. Here, each channel is regulated with a PID controller, which tracks target pressures, reduces steady-state error, and responds to disturbances more effectively than feedforward input alone. On top of this, an LQR framework is applied to the system model to compute optimal feedback gains. LQR balances tracking performance with actuation effort, yielding smoother and more coordinated regulation across all channels. Together, PID and LQR highlight how feedback mechanisms transform the system from a basic open-loop prototype into a precise and adaptive soft robotic platform.
 
 
