@@ -10,7 +10,7 @@ This repository demonstrates a progression of control strategies for soft roboti
 
 ## Phase 1: On-off Control
 
-In the first stage, an Arduino Mega 2560 programmed in C++ is used to implement manual open-loop actuation of pneumatic valves. Each valve is driven by a PWM signal whose duty cycle is set manually through potentiometers and switches. This arrangement makes it easy to adjust valve outputs and run simple sequences, but it remains a purely feedforward system: the user defines the valve inputs directly, and no feedback from the sensors is used to modify the actuation. As a result, this stage is useful for basic experiments and for demonstrating locomotion patterns, but it is inherently limited in accuracy when the system dynamics change. It therefore represents the manual, open-loop baseline for soft robotic locomotion.
+In the first stage, an Arduino Mega 2560 programmed in C++ is used to implement manual open-loop actuation of pneumatic valves. Each valve is driven by a Pulse Width Modulation (PWM) signal whose duty cycle is set manually through potentiometers and switches. This arrangement makes it easy to adjust valve outputs and run simple sequences, but it remains a purely feedforward system: the user defines the valve inputs directly, and no feedback from the sensors is used to modify the actuation. As a result, this stage is useful for basic experiments and for demonstrating locomotion patterns, but it is inherently limited in accuracy when the system dynamics change. It therefore represents the manual, open-loop baseline for soft robotic locomotion.
 
 ## Phase 2: PID and LQR Control
 
