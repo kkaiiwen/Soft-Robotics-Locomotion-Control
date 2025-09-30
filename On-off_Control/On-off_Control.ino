@@ -6,7 +6,7 @@ float potDC2 = 0;
 float potDC3 = 0;
 float potDC4 = 0;
 float potDC5 = 0;
-int max = 1000;
+int max = 100;
 int delay_1 = 2000;
 
 // Pin mapping (Arduino MEGA 2560):
@@ -42,7 +42,7 @@ void setup() {
   TCCR4A &= ~eightOnes;
   TCCR4B &= ~eightOnes;
 
-  // Phase and frequency correct PWM, non-inverting, prescaler 256
+  // Set timer for phase and frequency-correct PWM with non-inverting output, prescaler = 256
   TCCR3A = _BV(COM3A1) | _BV(COM3B1) | _BV(COM3C1);
   TCCR3B = _BV(WGM33) | _BV(CS32);
   TCCR4A = _BV(COM4A1) | _BV(COM4B1);
@@ -74,12 +74,12 @@ void loop() {
   float potPWMfreq = 100.0;
 
   // If statements for manual switch override
-  // Scale values from pot to 0-100, which gets used for duty cycle percentage
+  // Scale pot values to 0-100 range for use as PWM duty cycle percentage
   if (digitalRead(49) == HIGH) { potDC1 = analogRead(A1) * 100.0 / 1024.0; }
   if (digitalRead(50) == HIGH) { potDC2 = analogRead(A2) * 100.0 / 1024.0; }
   if (digitalRead(51) == HIGH) { potDC3 = analogRead(A3) * 100.0 / 1024.0; }
   if (digitalRead(52) == HIGH) { potDC4 = analogRead(A4) * 100.0 / 1024.0; }
-  if (digitalRead(43) == HIGH) { potDC5 = analogRead(A5) * 100.0 / 1024.0; }
+  if (digitalRead(53) == HIGH) { potDC5 = analogRead(A5) * 100.0 / 1024.0; }
 
   // Print manual inputs
   Serial.print(potDC1);
